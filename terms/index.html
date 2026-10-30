@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EGOSS Bot Terms of Service</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column, a quiet header band, two language sections linked from the top */
+:root {
+  color-scheme: light;
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --fg: #1c2030;
+  --muted: #5b6275;
+  --line: #dfe2ec;
+  --accent: #4b55c8;
+  --accent-soft: #e8eafb;
+  --font-body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12141c; --surface: #1a1d28; --fg: #e6e8f0; --muted: #9aa1b5; --line: #2b2f3e;
+    --accent: #9aa2ff; --accent-soft: #252a45; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12141c; --surface: #1a1d28; --fg: #e6e8f0; --muted: #9aa1b5; --line: #2b2f3e;
+  --accent: #9aa2ff; --accent-soft: #252a45; color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--fg);
+  font-family: var(--font-body); font-size: 16px; line-height: 1.65;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 64px;
+}
+.page { max-width: 44rem; margin: 0 auto; display: grid; gap: 40px; }
+header { display: grid; gap: 12px; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { font-size: clamp(1.9rem, 5vw, 2.5rem); line-height: 1.15; margin: 0; text-wrap: balance; font-weight: 700; }
+.meta { display: flex; flex-wrap: wrap; gap: 8px 20px; font-family: var(--font-mono); font-size: 13px; color: var(--muted); }
+.lang { display: flex; gap: 8px; }
+.lang a {
+  font-size: 14px; font-weight: 500; text-decoration: none; color: var(--accent);
+  border: 1px solid var(--line); border-radius: 999px; padding: 4px 14px; background: var(--surface);
+}
+.lang a:hover, .lang a:focus-visible { background: var(--accent-soft); outline: none; }
+section { display: grid; gap: 4px; }
+h2 { font-size: 1.35rem; margin: 0 0 8px; text-wrap: balance; }
+h3 { font-size: 1.02rem; margin: 22px 0 4px; }
+p, li { max-width: 65ch; }
+p { margin: 0 0 10px; }
+ul { margin: 0 0 10px; padding-left: 1.2rem; display: grid; gap: 6px; }
+.summary {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+  padding: 16px 20px; display: grid; gap: 6px; margin-bottom: 8px;
+}
+.summary strong { color: var(--accent); }
+.table-wrap { overflow-x: auto; margin: 6px 0 12px; }
+table { border-collapse: collapse; width: 100%; min-width: 30rem; font-size: 14.5px; }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+th { font-family: var(--font-mono); font-size: 12px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+code { font-family: var(--font-mono); font-size: .9em; background: var(--accent-soft); padding: 1px 5px; border-radius: 4px; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 8px 0; }
+footer { font-size: 13px; color: var(--muted); }
+a { color: var(--accent); }
+* { box-sizing: border-box; }
+body { margin: 0; }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <header>
+    <div class="eyebrow">EgossPACK · Discord</div>
+    <h1>EGOSS Bot Terms of Service</h1>
+    <div class="meta"><span>Effective: 2026-10-30</span><span>Last updated: 2026-10-30</span></div>
+    <nav class="lang" aria-label="Language"><a href="#en">English</a><a href="#tr">Türkçe</a><a href="../privacy/">Privacy Policy</a></nav>
+  </header>
+
+  <section id="en" lang="en">
+    <h2>English</h2>
+    <div class="summary">
+      <div><strong>In short:</strong> EGOSS Bot is the private support bot of the EgossPACK Discord server. Use it to get help, do not abuse it, and follow Discord's rules.</div>
+    </div>
+
+    <h3>1. Acceptance</h3>
+    <p>By using EGOSS Bot ("the bot") in the EgossPACK Discord server, you agree to these terms, to our <a href="../privacy/">Privacy Policy</a> and to <a href="https://discord.com/terms" rel="noopener">Discord's Terms of Service</a> and <a href="https://discord.com/guidelines" rel="noopener">Community Guidelines</a>.</p>
+
+    <h3>2. What the bot does</h3>
+    <p>The bot provides a support panel, answers to frequently asked questions, channel search, pack recommendations and private support tickets. It only works inside the EgossPACK server.</p>
+
+    <h3>3. Acceptable use</h3>
+    <ul>
+      <li>Open tickets only for real support requests. The bot allows up to 3 tickets per 24 hours and one open ticket at a time.</li>
+      <li>Do not spam, harass staff, share harmful or illegal content, or try to break, overload or misuse the bot.</li>
+      <li>Do not share personal data of other people in tickets.</li>
+    </ul>
+
+    <h3>4. Tickets</h3>
+    <ul>
+      <li>Staff may close a ticket when the issue is solved, when it breaks these terms, or after a period of inactivity. Inactive tickets are closed automatically.</li>
+      <li>If you leave the server, your open ticket is closed automatically.</li>
+      <li>Closed ticket conversations are recorded as described in the Privacy Policy.</li>
+    </ul>
+
+    <h3>5. Enforcement</h3>
+    <p>If you break these terms, staff may close your tickets and restrict your access to the bot or the server.</p>
+
+    <h3>6. No warranty</h3>
+    <p>The bot and its answers are provided "as is". We try to keep it available and accurate, but we do not guarantee that it will always work or that every answer fits your system. We are not liable for any damage resulting from use of the bot or its recommendations, to the extent permitted by law.</p>
+
+    <h3>7. Changes</h3>
+    <p>We may change the bot or these terms at any time. Changes are published on this page with a new "Last updated" date.</p>
+
+    <h3>8. Contact</h3>
+    <p>Questions about these terms: open a ticket in the EgossPACK server or contact the server owner on Discord.</p>
+  </section>
+
+  <hr>
+
+  <section id="tr" lang="tr">
+    <h2>Türkçe</h2>
+    <div class="summary">
+      <div><strong>Kısaca:</strong> EGOSS Bot, EgossPACK Discord sunucusunun kendi destek botudur. Yardım almak için kullan, kötüye kullanma, Discord kurallarına uy.</div>
+    </div>
+
+    <h3>1. Kabul</h3>
+    <p>EGOSS Bot'u ("bot") EgossPACK Discord sunucusunda kullanarak bu koşulları, <a href="../privacy/">Gizlilik Politikamızı</a>, <a href="https://discord.com/terms" rel="noopener">Discord Hizmet Koşulları</a>'nı ve <a href="https://discord.com/guidelines" rel="noopener">Topluluk Kuralları</a>'nı kabul etmiş olursun.</p>
+
+    <h3>2. Bot ne yapar</h3>
+    <p>Bot; destek paneli, sık sorulan soru cevapları, kanal arama, pack önerisi ve özel destek ticket'ları sağlar. Sadece EgossPACK sunucusunda çalışır.</p>
+
+    <h3>3. Kullanım kuralları</h3>
+    <ul>
+      <li>Ticket'ı sadece gerçek destek talepleri için aç. Bot 24 saatte en fazla 3 ticket'a ve aynı anda tek açık ticket'a izin verir.</li>
+      <li>Spam yapma, yetkilileri taciz etme, zararlı ya da yasa dışı içerik paylaşma, botu bozmaya, aşırı yüklemeye ya da kötüye kullanmaya çalışma.</li>
+      <li>Ticket'larda başka kişilerin kişisel bilgilerini paylaşma.</li>
+    </ul>
+
+    <h3>4. Ticket'lar</h3>
+    <ul>
+      <li>Yetkililer sorun çözüldüğünde, ticket bu koşullara aykırıysa ya da uzun süre hareketsiz kaldıysa ticket'ı kapatabilir. Hareketsiz ticket'lar otomatik kapanır.</li>
+      <li>Sunucudan ayrılırsan açık ticket'ın otomatik kapanır.</li>
+      <li>Kapanan ticket yazışmaları Gizlilik Politikası'nda anlatıldığı şekilde kayıt altına alınır.</li>
+    </ul>
+
+    <h3>5. Yaptırım</h3>
+    <p>Bu koşullara uymazsan yetkililer ticket'larını kapatabilir, bota ya da sunucuya erişimini kısıtlayabilir.</p>
+
+    <h3>6. Garanti yoktur</h3>
+    <p>Bot ve verdiği cevaplar "olduğu gibi" sunulur. Botun çalışır ve doğru kalması için çaba gösteririz, ancak her zaman çalışacağını ya da her cevabın sistemine uyacağını garanti etmeyiz. Yasaların izin verdiği ölçüde, botun ya da önerilerinin kullanımından doğan zararlardan sorumlu değiliz.</p>
+
+    <h3>7. Değişiklikler</h3>
+    <p>Botu ya da bu koşulları her zaman değiştirebiliriz. Değişiklikler bu sayfada yeni bir "Son güncelleme" tarihiyle yayınlanır.</p>
+
+    <h3>8. İletişim</h3>
+    <p>Bu koşullarla ilgili sorular için EgossPACK sunucusunda ticket aç ya da Discord'da sunucu sahibine yaz.</p>
+  </section>
+
+  <footer>EgossPACK · EGOSS Bot</footer>
+</div>
+</body>
+</html>
