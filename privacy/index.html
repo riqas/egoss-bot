@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EGOSS Bot Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column, a quiet header band, two language sections linked from the top */
+:root {
+  color-scheme: light;
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --fg: #1c2030;
+  --muted: #5b6275;
+  --line: #dfe2ec;
+  --accent: #4b55c8;
+  --accent-soft: #e8eafb;
+  --font-body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12141c; --surface: #1a1d28; --fg: #e6e8f0; --muted: #9aa1b5; --line: #2b2f3e;
+    --accent: #9aa2ff; --accent-soft: #252a45; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12141c; --surface: #1a1d28; --fg: #e6e8f0; --muted: #9aa1b5; --line: #2b2f3e;
+  --accent: #9aa2ff; --accent-soft: #252a45; color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--fg);
+  font-family: var(--font-body); font-size: 16px; line-height: 1.65;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 64px;
+}
+.page { max-width: 44rem; margin: 0 auto; display: grid; gap: 40px; }
+header { display: grid; gap: 12px; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { font-size: clamp(1.9rem, 5vw, 2.5rem); line-height: 1.15; margin: 0; text-wrap: balance; font-weight: 700; }
+.meta { display: flex; flex-wrap: wrap; gap: 8px 20px; font-family: var(--font-mono); font-size: 13px; color: var(--muted); }
+.lang { display: flex; gap: 8px; }
+.lang a {
+  font-size: 14px; font-weight: 500; text-decoration: none; color: var(--accent);
+  border: 1px solid var(--line); border-radius: 999px; padding: 4px 14px; background: var(--surface);
+}
+.lang a:hover, .lang a:focus-visible { background: var(--accent-soft); outline: none; }
+section { display: grid; gap: 4px; }
+h2 { font-size: 1.35rem; margin: 0 0 8px; text-wrap: balance; }
+h3 { font-size: 1.02rem; margin: 22px 0 4px; }
+p, li { max-width: 65ch; }
+p { margin: 0 0 10px; }
+ul { margin: 0 0 10px; padding-left: 1.2rem; display: grid; gap: 6px; }
+.summary {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+  padding: 16px 20px; display: grid; gap: 6px; margin-bottom: 8px;
+}
+.summary strong { color: var(--accent); }
+.table-wrap { overflow-x: auto; margin: 6px 0 12px; }
+table { border-collapse: collapse; width: 100%; min-width: 30rem; font-size: 14.5px; }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+th { font-family: var(--font-mono); font-size: 12px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+code { font-family: var(--font-mono); font-size: .9em; background: var(--accent-soft); padding: 1px 5px; border-radius: 4px; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 8px 0; }
+footer { font-size: 13px; color: var(--muted); }
+a { color: var(--accent); }
+* { box-sizing: border-box; }
+body { margin: 0; }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <header>
+    <div class="eyebrow">EgossPACK · Discord</div>
+    <h1>EGOSS Bot Privacy Policy</h1>
+    <div class="meta"><span>Effective: 2026-10-30</span><span>Last updated: 2026-10-30</span></div>
+    <nav class="lang" aria-label="Language"><a href="#en">English</a><a href="#tr">Türkçe</a></nav>
+  </header>
+
+  <!-- ================= ENGLISH ================= -->
+  <section id="en" lang="en">
+    <h2>English</h2>
+    <div class="summary">
+      <div><strong>In short:</strong> EGOSS Bot is the private support bot of the EgossPACK Discord server. It only works in our own server and cannot be added to other servers.</div>
+      <div>It stores what is needed to run support tickets: who opened a ticket, what you wrote in the ticket form and the ticket conversation. It does not sell, share or use your data for advertising or AI training.</div>
+    </div>
+
+    <h3>1. Who we are</h3>
+    <p>EGOSS Bot ("the bot") is operated by the owner of the EgossPACK Discord server ("we"). The bot provides a support panel, frequently asked question answers, channel search, pack recommendations and private support tickets.</p>
+
+    <h3>2. What data the bot processes</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Data</th><th>When</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td>Your Discord user ID and username</td><td>When you open a ticket</td><td>To link the ticket to you and limit tickets to 3 per 24 hours</td></tr>
+          <tr><td>Ticket form answers (graphics card, processor, FPS and pack, problem description)</td><td>When you open a ticket</td><td>So staff can help you</td></tr>
+          <tr><td>Messages, embeds and attachment names inside your ticket</td><td>When the ticket is closed</td><td>To create a transcript of the support conversation</td></tr>
+          <tr><td>Ticket times, topic, which staff member answered first and who closed it</td><td>During the ticket</td><td>Reminders, auto-close after inactivity and staff statistics</td></tr>
+          <tr><td>The fact that you left the server</td><td>When you leave or are removed</td><td>To close and archive your open ticket automatically</td></tr>
+          <tr><td>Which members hold staff roles</td><td>When a staff member runs the statistics command</td><td>To show a per-staff summary. Read on demand, not stored.</td></tr>
+          <tr><td>Channel search words, pack wizard choices and FAQ topic counts</td><td>When you use those features</td><td>Anonymous usage counts to improve answers. Stored without your user ID.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>The bot does not read or store your messages outside ticket threads, your direct messages, your online status or voice activity.</p>
+
+    <h3>3. Where the data is stored</h3>
+    <ul>
+      <li>Ticket records are stored in a database on our private server (VPS).</li>
+      <li>Transcripts of closed tickets are posted to a staff-only channel in our Discord server and a copy is stored as a file on the same private server.</li>
+      <li>Server administrators may keep backups of the server's channels, including ticket channels from the previous ticket system, for archive and dispute purposes.</li>
+      <li>The private server is accessible only to the server owner. Access requires a cryptographic key, password login is disabled and a firewall blocks all other connections.</li>
+    </ul>
+
+    <h3>4. Who can see it</h3>
+    <ul>
+      <li>Your ticket is visible only to you and members with our staff roles.</li>
+      <li>Transcripts are visible only to staff.</li>
+      <li>We do not sell, rent or share your data with third parties. Discord processes all data that passes through its platform under <a href="https://discord.com/privacy" rel="noopener">Discord's Privacy Policy</a>.</li>
+      <li>Your data is not used to train machine learning or AI models, and it is not used for advertising or profiling.</li>
+    </ul>
+
+    <h3>5. How long we keep it</h3>
+    <p>Ticket records and transcripts are kept for as long as they are useful for support history and dispute resolution. You can ask us to delete them at any time (see section 6).</p>
+
+    <h3>6. Your choices and rights</h3>
+    <ul>
+      <li>Opening a ticket is optional. The ticket message tells you that the conversation is recorded when the ticket is closed.</li>
+      <li>You can ask for a copy of your ticket records or transcripts, or ask us to delete them. Open a ticket in the EgossPACK server or contact the server owner on Discord. We handle deletion requests within 30 days.</li>
+    </ul>
+
+    <h3>7. Age</h3>
+    <p>The bot is only available to members of our Discord server. You must meet Discord's minimum age requirement to use Discord.</p>
+
+    <h3>8. Changes</h3>
+    <p>If this policy changes, we update this page and the "Last updated" date at the top.</p>
+  </section>
+
+  <hr>
+
+  <!-- ================= TÜRKÇE ================= -->
+  <section id="tr" lang="tr">
+    <h2>Türkçe</h2>
+    <div class="summary">
+      <div><strong>Kısaca:</strong> EGOSS Bot, EgossPACK Discord sunucusunun kendi destek botudur. Sadece bizim sunucumuzda çalışır, başka sunuculara eklenemez.</div>
+      <div>Destek ticket'larını yürütmek için gereken bilgileri saklar: ticket'ı kimin açtığını, ticket formuna ve yazışmaya ne yazdığını. Verilerini satmaz, kimseyle paylaşmaz, reklam ya da yapay zekâ eğitimi için kullanmaz.</div>
+    </div>
+
+    <h3>1. Biz kimiz</h3>
+    <p>EGOSS Bot ("bot"), EgossPACK Discord sunucusunun sahibi ("biz") tarafından işletilir. Bot; destek paneli, sık sorulan soru cevapları, kanal arama, pack önerisi ve özel destek ticket'ları sağlar.</p>
+
+    <h3>2. Bot hangi verileri işler</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Veri</th><th>Ne zaman</th><th>Neden</th></tr></thead>
+        <tbody>
+          <tr><td>Discord kullanıcı ID'n ve kullanıcı adın</td><td>Ticket açtığında</td><td>Ticket'ı seninle eşleştirmek ve 24 saatte 3 ticket sınırını uygulamak</td></tr>
+          <tr><td>Ticket formu (ekran kartı, işlemci, FPS ve pack, sorunun açıklaması)</td><td>Ticket açtığında</td><td>Yetkililerin sana yardım edebilmesi</td></tr>
+          <tr><td>Ticket içindeki mesajlar, embed'ler ve dosya adları</td><td>Ticket kapandığında</td><td>Destek yazışmasının kaydını (döküm) oluşturmak</td></tr>
+          <tr><td>Ticket zamanları, konusu, ilk cevap veren yetkili ve kapatan kişi</td><td>Ticket boyunca</td><td>Hatırlatma, sessiz ticket'ı otomatik kapatma, yetkili istatistiği</td></tr>
+          <tr><td>Sunucudan ayrıldığın bilgisi</td><td>Ayrıldığında ya da çıkarıldığında</td><td>Açık ticket'ını otomatik kapatıp arşivlemek</td></tr>
+          <tr><td>Yetkili rollerinde kimlerin olduğu</td><td>Bir yetkili istatistik komutunu çalıştırdığında</td><td>Yetkili başına özet göstermek. Anlık okunur, saklanmaz.</td></tr>
+          <tr><td>Kanal aramasına yazılan kelimeler, pack önerisi seçimleri, SSS konu sayıları</td><td>Bu özellikleri kullandığında</td><td>Cevapları iyileştirmek için anonim sayılar. Kullanıcı ID'si olmadan saklanır.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Bot, ticket dışındaki mesajlarını, özel mesajlarını, çevrim içi durumunu ya da ses etkinliğini okumaz ve saklamaz.</p>
+
+    <h3>3. Veriler nerede saklanır</h3>
+    <ul>
+      <li>Ticket kayıtları özel sunucumuzdaki (VPS) bir veritabanında tutulur.</li>
+      <li>Kapanan ticket'ların dökümü Discord sunucumuzdaki sadece yetkililerin gördüğü bir kanala gönderilir, bir kopyası da aynı özel sunucuda dosya olarak saklanır.</li>
+      <li>Sunucu yöneticileri, arşiv ve anlaşmazlık durumları için sunucunun kanallarının yedeğini tutabilir. Buna eski ticket sisteminden kalan ticket kanalları da dahildir.</li>
+      <li>Özel sunucuya sadece sunucu sahibi erişebilir. Giriş şifreli anahtar ister, şifreyle giriş kapalıdır ve güvenlik duvarı diğer bütün bağlantıları engeller.</li>
+    </ul>
+
+    <h3>4. Kimler görebilir</h3>
+    <ul>
+      <li>Ticket'ını sadece sen ve yetkili rollerindeki üyeler görebilir.</li>
+      <li>Dökümleri sadece yetkililer görebilir.</li>
+      <li>Verilerini satmayız, kiralamayız, üçüncü kişilerle paylaşmayız. Discord'dan geçen bütün veriler <a href="https://discord.com/privacy" rel="noopener">Discord'un Gizlilik Politikası</a>'na tabidir.</li>
+      <li>Verilerin makine öğrenimi ya da yapay zekâ modeli eğitmek için, reklam ya da profilleme için kullanılmaz.</li>
+    </ul>
+
+    <h3>5. Ne kadar saklanır</h3>
+    <p>Ticket kayıtları ve dökümler, destek geçmişi ve anlaşmazlık çözümü için işe yaradığı sürece saklanır. İstediğin zaman silinmesini isteyebilirsin (bkz. madde 6).</p>
+
+    <h3>6. Seçimlerin ve hakların</h3>
+    <ul>
+      <li>Ticket açmak isteğe bağlıdır. Ticket mesajı, ticket kapanınca yazışmanın kaydının tutulacağını söyler.</li>
+      <li>Ticket kayıtlarının ya da dökümlerinin bir kopyasını isteyebilir veya silinmesini talep edebilirsin. EgossPACK sunucusunda ticket aç ya da Discord'da sunucu sahibine yaz. Silme taleplerini 30 gün içinde yerine getiririz.</li>
+    </ul>
+
+    <h3>7. Yaş</h3>
+    <p>Bot sadece Discord sunucumuzun üyelerine açıktır. Discord'u kullanmak için Discord'un asgari yaş şartını karşılaman gerekir.</p>
+
+    <h3>8. Değişiklikler</h3>
+    <p>Bu politika değişirse bu sayfayı ve üstteki "Son güncelleme" tarihini güncelleriz.</p>
+  </section>
+
+  <footer>EgossPACK · EGOSS Bot</footer>
+</div>
+</body>
+</html>
